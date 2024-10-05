@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
-public class Main {
+public class Z1 {
     private static int woda(int a){
         return a*a;
     }
