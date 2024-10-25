@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.util.stream.Collectors;
 
-public class Main {
+public class Z5 {
     public static ArrayList<Integer> append(ArrayList<Integer> a, ArrayList<Integer> b) {
         ArrayList<Integer> c = new ArrayList<>();
         c.addAll(b);
