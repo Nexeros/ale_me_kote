@@ -1,5 +1,18 @@
-public record Car(String brand, String model, int fuelConsumptionPer100km) {
-    public double fuelCost(double fuelPrice, double distance) {
-        return ((double) fuelConsumptionPer100km / 100)*distance*fuelPrice;
+//Zad 1
+public class Car extends Vehicle {
+    int numberOfDoors;
+
+    public Car(String brand, String model, int numberOfDoors) {
+        super(brand, model);
+        this.numberOfDoors = numberOfDoors;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "numberOfDoors=" + numberOfDoors +
+                ", brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                '}';
     }
 }
