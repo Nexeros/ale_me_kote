@@ -1,0 +1,1 @@
+Pozdrawiam Jakub Malinowski
